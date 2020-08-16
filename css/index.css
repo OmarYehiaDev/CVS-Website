@@ -1,0 +1,25 @@
+body{
+    background-color: #e0e1e1;
+}
+.customnav li{
+    color:#504F64;
+}
+.customnav li:hover{
+    color:#000000;
+}
+#active li:hover{
+    color:#504F64;
+}
+#active{
+    background-color: #F69527;
+}
+.maint{
+    color: #216184;
+}
+.ymaint{
+    color: #F69527;
+}
+.button{
+    background-color:#F69527; 
+    color: #ffffff;
+}
