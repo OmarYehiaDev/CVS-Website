@@ -1,25 +1,124 @@
-body{
+body {
     background-color: #e0e1e1;
 }
-.customnav li{
-    color:#504F64;
+
+.customnav li {
+    color: #504F64;
 }
-.customnav li:hover{
-    color:#000000;
+
+.customnav li:hover {
+    color: #000000;
 }
-#active li:hover{
-    color:#504F64;
+
+#active li:hover {
+    color: #504F64;
 }
-#active{
+
+#active {
     background-color: #F69527;
 }
-.maint{
+
+.maint {
     color: #216184;
 }
-.ymaint{
+
+.ymaint {
     color: #F69527;
 }
-.button{
-    background-color:#F69527; 
+
+.hpbutton {
+    background-color: #F69527;
     color: #ffffff;
+}
+:hover.hpbutton {
+    border: 1px solid #F69527;
+    background-color: #e0e1e1;
+    color: #ffffff;
+}
+
+.rtext {
+    color: #216184;
+}
+
+@media(min-width:769px) and (max-width: 992px) {
+    .rtext {
+        font-size: 2rem;
+    }
+}
+
+@media(min-width:775px) and (max-width: 768px) {
+    .rtext {
+        font-size: 1.25rem;
+    }
+}
+
+@media(max-width: 774px) {
+    .rtext {
+        font-size: 1.5rem;
+    }
+}
+
+:hover.myfcbsub {
+    background-color: #e0e1e1;
+    color: #000000;
+    border: solid 1px #216184;
+}
+
+.myfcbsub {
+    background-color: #216184;
+    color: #000000
+}
+
+
+.myfield,
+.myfcb select,
+.myfcb textarea {
+    background-color: #e0e1e1;
+    border: solid 1px #216184;
+    color: #216184;
+}
+
+.myfcb label,.vchs{
+    color: #F69527;
+}
+
+@media(min-width:1023px) and (max-width:1220px) {
+    .mynav li {
+        font-size: 0.75rem;
+    }
+}
+@media(min-width:938px) and (max-width:1028px) {
+    .mynav li {
+        font-size: 0.65rem;
+    }
+}
+@media(min-width:856px) and (max-width:943px) {
+    .mynav li {
+        font-size: 0.55rem;
+    }
+}
+@media (min-width:756px) and (max-width:855px) {
+    .mynav li {
+        font-size: 0.45rem;
+    }
+}
+@media(max-width:755px) {
+    .mynav li {
+        font-size: 0.9rem;
+    }
+}
+@media(max-width:333px) {
+    .myhh1 {
+        font-size: 1.8rem;
+    }
+}
+.pb{
+    width:180px;
+    height:180px;
+    color: #216184;
+}
+:hover .vchs{
+    text-decoration: none;
+    color: #F69527;
+    
 }
